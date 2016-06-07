@@ -108,6 +108,11 @@ GEM
       nokogiri (~> 1.6.0)
     rails-html-sanitizer (1.0.3)
       loofah (~> 2.0)
+    rails_12factor (0.0.3)
+      rails_serve_static_assets
+      rails_stdout_logging
+    rails_serve_static_assets (0.0.5)
+    rails_stdout_logging (0.0.5)
     rake (11.1.2)
     rb-fsevent (0.9.7)
     rb-inotify (0.9.7)
@@ -142,9 +147,13 @@ DEPENDENCIES
   puma (~> 3.0)
   rack-cors
   rails!
+  rails_12factor
   spring
   spring-watcher-listen (~> 2.0.0)
   tzinfo-data
+
+RUBY VERSION
+   ruby 2.3.1p112
 
 BUNDLED WITH
    1.12.3
